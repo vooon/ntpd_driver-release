@@ -1,0 +1,28 @@
+ros-jade-ntpd-driver (1.0.2-0utopic) utopic; urgency=high
+
+  * Add example launch script.
+  * Add rosindex metadata.
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 23 Jan 2015 21:00:00 -0000
+
+ros-jade-ntpd-driver (1.0.1-0utopic) utopic; urgency=high
+
+  * Rename package from ros2ntpd to ntpd_driver
+    Add notes for chrony.
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Sat, 12 Jul 2014 20:00:00 -0000
+
+ros-jade-ntpd-driver (1.0.0-0utopic) utopic; urgency=high
+
+  * Update readme
+  * Add readme
+  * Update shmTime struct to latest version.
+    Fix: change leap=0 will fix ntpd receive.
+  * Initial
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 27 Jun 2014 20:00:00 -0000
+
+
