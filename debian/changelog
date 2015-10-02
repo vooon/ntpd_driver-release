@@ -1,0 +1,58 @@
+ros-jade-ntpd-driver (1.2.0-0vivid) vivid; urgency=high
+
+  * #2 <https://github.com/vooon/ntpd_driver/issues/2>: allow both UDPROS and TCPROS
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Thu, 01 Oct 2015 21:00:00 -0000
+
+ros-jade-ntpd-driver (1.1.1-0vivid) vivid; urgency=high
+
+  * Syncronize shm write with gpsd/ntpshmwrite.c
+  * Add fixup_date parameter.
+    Now driver can setup system date.
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 17 Jul 2015 21:00:00 -0000
+
+ros-jade-ntpd-driver (1.1.0-0vivid) vivid; urgency=high
+
+  * Update package.xml for REP 140
+  * Change topic param name to ~/time_ref_topic
+  * Merge pull request #1 <https://github.com/vooon/ntpd_driver/issues/1> from oceansystemslab/master
+    Updated Driver
+  * Updated README with new node input parameter
+  * fixed indentation according to ROS guidelines and added input parameter for time reference topic
+  * Removed transport hints to allow the driver to work with the nmea_serial_driver Python publisher and added ROS style indentation.
+  * Updated .gitignore with C++ version on GitHub
+  * Contributors: Valerio De Carolis, Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Thu, 16 Apr 2015 21:00:00 -0000
+
+ros-jade-ntpd-driver (1.0.2-0vivid) vivid; urgency=high
+
+  * Add example launch script.
+  * Add rosindex metadata.
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 23 Jan 2015 21:00:00 -0000
+
+ros-jade-ntpd-driver (1.0.1-0vivid) vivid; urgency=high
+
+  * Rename package from ros2ntpd to ntpd_driver
+    Add notes for chrony.
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Sat, 12 Jul 2014 20:00:00 -0000
+
+ros-jade-ntpd-driver (1.0.0-0vivid) vivid; urgency=high
+
+  * Update readme
+  * Add readme
+  * Update shmTime struct to latest version.
+    Fix: change leap=0 will fix ntpd receive.
+  * Initial
+  * Contributors: Vladimir Ermakov
+
+ -- Vladimir Ermakov <vooon341@gmail.com>  Fri, 27 Jun 2014 20:00:00 -0000
+
+
