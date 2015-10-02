@@ -1,3 +1,24 @@
+## ntpd_driver (indigo) - 1.2.0-0
+
+The packages in the `ntpd_driver` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo ntpd_driver` on `Fri, 02 Oct 2015 18:20:37 -0000`
+
+The `ntpd_driver` package was released.
+
+Version of package(s) in repository `ntpd_driver`:
+- upstream repository: https://github.com/vooon/ntpd_driver.git
+- release repository: https://github.com/vooon/ntpd_driver-release.git
+- rosdistro version: `1.1.1-0`
+- old version: `1.1.1-0`
+- new version: `1.2.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## ntpd_driver (jade) - 1.1.1-0
 
 The packages in the `ntpd_driver` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade ntpd_driver` on `Fri, 17 Jul 2015 21:30:58 -0000`
