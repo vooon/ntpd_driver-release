@@ -1,3 +1,26 @@
+## ntpd_driver (lunar) - 1.2.0-0
+
+The packages in the `ntpd_driver` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --ros-distro lunar --track lunar --new-track ntpd_driver` on `Tue, 18 Jul 2017 15:32:08 -0000`
+
+The `ntpd_driver` package was released.
+
+Version of package(s) in repository `ntpd_driver`:
+
+- upstream repository: https://github.com/vooon/ntpd_driver.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.2.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## ntpd_driver (kinetic) - 1.2.0-0
 
 The packages in the `ntpd_driver` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic ntpd_driver --new-track` on `Mon, 28 Mar 2016 04:17:12 -0000`
