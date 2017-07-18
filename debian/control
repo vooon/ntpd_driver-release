@@ -1,0 +1,12 @@
+Source: ros-lunar-ntpd-driver
+Section: misc
+Priority: extra
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpoco-dev, ros-lunar-catkin, ros-lunar-cmake-modules, ros-lunar-message-generation, ros-lunar-message-runtime, ros-lunar-roscpp, ros-lunar-sensor-msgs
+Homepage: http://wiki.ros.org/ntpd_driver
+Standards-Version: 3.9.2
+
+Package: ros-lunar-ntpd-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpoco-dev, ros-lunar-cmake-modules, ros-lunar-message-generation, ros-lunar-message-runtime, ros-lunar-roscpp, ros-lunar-sensor-msgs
+Description: ntpd_driver sends TimeReference message time to ntpd server
