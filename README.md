@@ -1,3 +1,26 @@
+## ntpd_driver (melodic) - 1.2.0-1
+
+The packages in the `ntpd_driver` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -t melodic -r melodic ntpd_driver` on `Sat, 06 Jul 2019 20:18:28 -0000`
+
+The `ntpd_driver` package was released.
+
+Version of package(s) in repository `ntpd_driver`:
+
+- upstream repository: https://github.com/vooon/ntpd_driver.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## ntpd_driver (lunar) - 1.2.0-0
 
 The packages in the `ntpd_driver` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --ros-distro lunar --track lunar --new-track ntpd_driver` on `Tue, 18 Jul 2017 15:32:08 -0000`
