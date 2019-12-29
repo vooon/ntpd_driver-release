@@ -1,0 +1,12 @@
+Source: ros-eloquent-ntpd-driver
+Section: misc
+Priority: optional
+Maintainer: Vladimir Ermakov <vooon341@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpoco-dev, ros-eloquent-ament-cmake, ros-eloquent-ament-lint-auto, ros-eloquent-ament-lint-common, ros-eloquent-class-loader, ros-eloquent-rclcpp, ros-eloquent-rclcpp-components, ros-eloquent-sensor-msgs, ros-eloquent-ros-workspace
+Homepage: http://wiki.ros.org/ntpd_driver
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-ntpd-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpoco-dev, ros-eloquent-class-loader, ros-eloquent-rclcpp, ros-eloquent-rclcpp-components, ros-eloquent-sensor-msgs, ros-eloquent-ros-workspace
+Description: ntpd_driver sends TimeReference message time to ntpd server
