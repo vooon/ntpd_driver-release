@@ -2,6 +2,35 @@
 Changelog for package ntpd_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.0 (2021-03-25)
+------------------
+* make linker happy
+* fix loading as a component
+* Contributors: Vladimir Ermakov
+
+2.0.2 (2021-02-26)
+------------------
+* make tests happy
+* license: change formatting to one known by ament_copyright
+* ci: initial import
+* add license file
+* Contributors: Vladimir Ermakov
+
+2.0.1 (2019-12-29)
+------------------
+* disable depend on launch_xml, rosdep can't find it
+* Contributors: Vladimir Ermakov
+
+2.0.0 (2019-12-29)
+------------------
+* update launch
+* read parameters
+* subscribe to time_ref topic, remove log THROTTLE - segfaults
+* open shm
+* make it buildable, todo: subscribe, open shm
+* update cmake to use ament
+* Contributors: Vladimir Ermakov
+
 1.2.0 (2015-10-02)
 ------------------
 * `#2 <https://github.com/vooon/ntpd_driver/issues/2>`_: allow both UDPROS and TCPROS
