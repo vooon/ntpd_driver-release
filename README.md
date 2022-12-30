@@ -1,3 +1,26 @@
+## ntpd_driver (foxy) - 2.2.0-1
+
+The packages in the `ntpd_driver` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy ntpd_driver` on `Fri, 30 Dec 2022 14:26:14 -0000`
+
+The `ntpd_driver` package was released.
+
+Version of package(s) in repository `ntpd_driver`:
+
+- upstream repository: https://github.com/vooon/ntpd_driver.git
+- release repository: https://github.com/vooon/ntpd_driver-release.git
+- rosdistro version: `2.1.0-1`
+- old version: `2.1.0-1`
+- new version: `2.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## ntpd_driver (noetic) - 1.3.0-1
 
 The packages in the `ntpd_driver` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic ntpd_driver` on `Fri, 30 Dec 2022 12:44:46 -0000`
